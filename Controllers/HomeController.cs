@@ -20,7 +20,9 @@ namespace ActionDemo.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok($"¡¾1.0.3¡¿£º{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}");
+
+         
+            return Ok($"å½“å‰æ—¶é—´{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}");
         }
        
     }
