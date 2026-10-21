@@ -1,0 +1,11 @@
+name: Pull Consul Image
+
+on:
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull Consul
+        run: docker pull hashicorp/consul:latest
